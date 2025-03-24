@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html#understanding-pediatric-mental-health-emergencies-over-time",
+    "href": "index.html#understanding-pediatric-mental-health-emergencies-over-time",
+    "title": "",
+    "section": " Understanding Pediatric Mental Health Emergencies Over Time",
+    "text": "Understanding Pediatric Mental Health Emergencies Over Time\n\nHow timeseries methods reveal COVID-era changes in the ED\n\n\n    Will Simmons\nWeill Cornell Division of Biostatistics\n8 April 2025\n\nPresented to:\nWeill Cornell Department of Emergency Medicine"
+  },
+  {
+    "objectID": "index.html#what-is-timeseries-data",
+    "href": "index.html#what-is-timeseries-data",
+    "title": "",
+    "section": "What is timeseries data?",
+    "text": "What is timeseries data?\n\n\nData measured at regular intervals over time\n\nCan vary by frequency (e.g., every year, every minute)\n  \n\n\nExamples: ED visit counts, patient vitals, rainfall totals"
+  },
+  {
+    "objectID": "index.html#research-context",
+    "href": "index.html#research-context",
+    "title": "",
+    "section": "Research context",
+    "text": "Research context\n\n\nRising mental health-related ED visits among children and teens\n\nWe suspected seasonal patterns and COVID-related changes to visit volumes"
+  },
+  {
+    "objectID": "index.html#why-do-timeseries-methods-matter-here",
+    "href": "index.html#why-do-timeseries-methods-matter-here",
+    "title": "",
+    "section": "Why do timeseries methods matter here?",
+    "text": "Why do timeseries methods matter here?\n\n\nQuantifies trends, seasonality, and anomalies\n\n\n\n\n\nIn today’s motivating example, these methods helped answer:\n\nAre there seasonal patterns to mental health ED visits?\nHave mental health ED visits increased? If so, how much?\nDid COVID disrupt visit patterns?"
+  },
+  {
+    "objectID": "index.html#motivating-example",
+    "href": "index.html#motivating-example",
+    "title": "",
+    "section": "Motivating example",
+    "text": "Motivating example\n\n\n\n\nKids are brought to the ED for a number of reasons\n\nMental health (MH) increasingly one of those reasons\n\nMH-related pediatric ED visits seasonal and increasing"
+  },
+  {
+    "objectID": "index.html#our-data",
+    "href": "index.html#our-data",
+    "title": "",
+    "section": "Our data1",
+    "text": "Our data1\n\n\n\nWeekly pediatric ED visits for mental health concerns.\n\nNYC-area hospitals, 2016–2022.\n\nCovers pre-pandemic, peak COVID, and post-peak periods.\n\n\n\n\n\nGoal: Understand how visit patterns changed during COVID and what that could mean for future care.\n\nData source: INSIGHT Clinical Research Network. https://insightcrn.org/our-data/."
+  },
+  {
+    "objectID": "index.html#visualization-key",
+    "href": "index.html#visualization-key",
+    "title": "",
+    "section": "Visualization = key!",
+    "text": "Visualization = key!\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis figure “smoothes” noise in our timeseries data using a rolling average. \nDescriptive visualizations can lead us to research questions!"
+  },
+  {
+    "objectID": "index.html#what-did-we-notice",
+    "href": "index.html#what-did-we-notice",
+    "title": "",
+    "section": "What did we notice?",
+    "text": "What did we notice?\n\n\n\nSeasonality: peaks April/November, troughs January/July \nTrend fairly flat over time \nChanges post-COVID (blue line)?"
+  },
+  {
+    "objectID": "index.html#what-we-wanted-to-know",
+    "href": "index.html#what-we-wanted-to-know",
+    "title": "",
+    "section": "What we wanted to know",
+    "text": "What we wanted to know\n   \n\nResearch question:\nWhat would visit rates have looked like without COVID?"
+  },
+  {
+    "objectID": "index.html#what-we-wanted-to-know-1",
+    "href": "index.html#what-we-wanted-to-know-1",
+    "title": "",
+    "section": "What we wanted to know",
+    "text": "What we wanted to know\n\n\nSpecifically:\n\n\n\nWas the increase we noticed real or random?\n\nHow much did COVID disrupt seasonal patterns?\n\nWhat could this mean for mental health ED care going forward?\n\n\n\n\nTimeseries models helped us answer these questions."
+  },
+  {
+    "objectID": "index.html#how-we-used-timeseries-methods",
+    "href": "index.html#how-we-used-timeseries-methods",
+    "title": "",
+    "section": "How we used timeseries methods",
+    "text": "How we used timeseries methods\n\nCompared expected visits with reality, by COVID wave"
+  },
+  {
+    "objectID": "index.html#key-findings",
+    "href": "index.html#key-findings",
+    "title": "",
+    "section": "Key findings",
+    "text": "Key findings\n\n\n\nCOVID increased MH-related visits, overall and for specific groups/diagnoses.\nTimeseries models quantified these changes.\n\n\n\nSpecific groups: higher than expected among - Female patients - Adolescents (12-17 years) - Asian patients\nSpecific diagnoses: - Anxiety and depressive disorders - Suicidality/self-harm - Substance use disorders - Eating disorders"
+  },
+  {
+    "objectID": "index.html#closing-thoughts",
+    "href": "index.html#closing-thoughts",
+    "title": "",
+    "section": "Closing thoughts",
+    "text": "Closing thoughts\n\n\nTimeseries models can turn raw ED data into actionable insights\nDo you have a question that could be answered using timeseries methods?\nTimeseries models generally require:\n\nA well-defined research question + hypothesis (I can help)\nSufficient data (depends, but good start is 50+ timepoints over multiple years)"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Thanks\n\nQuestions?"
+  }
+]
