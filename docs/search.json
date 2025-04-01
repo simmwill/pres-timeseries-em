@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html#understanding-pediatric-mental-health-emergencies-over-time",
-    "href": "index.html#understanding-pediatric-mental-health-emergencies-over-time",
+    "objectID": "index.html#time-series-methods",
+    "href": "index.html#time-series-methods",
     "title": "",
-    "section": " Understanding Pediatric Mental Health Emergencies Over Time",
-    "text": "Understanding Pediatric Mental Health Emergencies Over Time\n\nHow timeseries methods reveal COVID-era changes in the ED\n\n\n    Will Simmons\nWeill Cornell Division of Biostatistics\n8 April 2025\n\nPresented to:\nWeill Cornell Department of Emergency Medicine"
+    "section": " Time Series Methods:",
+    "text": "Time Series Methods:\nPediatric Mental Health in the COVID-Era ED\n\n\n    Will Simmons\nWeill Cornell Division of Biostatistics\n8 April 2025\n\nPresented to:\nWeill Cornell Department of Emergency Medicine"
   },
   {
     "objectID": "index.html#what-is-timeseries-data",
